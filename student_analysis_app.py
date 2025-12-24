@@ -427,11 +427,11 @@ def show_score_prediction():
             st.success(f"预测期末成绩：{final_score} 分")
             # 根据成绩展示对应图片
             if final_score >= 80:
-                st.image("image/优秀.jpg", width=300)
+                st.image("images/优秀.jpg", width=300)
             elif 60 <= final_score < 80:
-                st.image("image/恭喜.jpg", width=300)
+                st.image("images/恭喜.jpg", width=300)
             else:
-                st.image("image/鼓励.jpg", width=300)
+                st.image("images/鼓励.jpg", width=300)
             
             st.markdown("---")
             st.subheader("学习建议")
